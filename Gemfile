@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
 # Use SCSS for stylesheets
+gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -33,6 +34,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :production do
   gem 'pg'
   gem 'rails_12factor'
+  gem 'heroku'
 end 
 
 group :development, :test do
