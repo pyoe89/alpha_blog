@@ -26,7 +26,6 @@ $border-radius-base: 0;
 .jumbotron {
   background-image: asset-url('new_cover_page.jpg');
   background-size: cover;
-  height: 550px;
 }
 
 .jumbotron h1 {
@@ -48,7 +47,7 @@ $border-radius-base: 0;
 
 .footer {
   background-color: #000;
-  margin-top: 0px;
+  margin-top: 30px;
   padding-top: 15px;
   border-top: 5px solid #FFB90F;
   color: #FFF;
