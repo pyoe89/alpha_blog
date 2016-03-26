@@ -37,6 +37,9 @@ $border-radius-base: 0;
   font-weight:bold;
 }
 
+.top{
+  margin-top: 60px;
+}
 .btn-xlarge{
   font-size: 1.7em;
   background-color: black;
@@ -52,8 +55,22 @@ $border-radius-base: 0;
 .description{
   margin-top: 0px;
 }
+.create-new {
+  margin-top: 30px;
+}
+.article-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.article-body{
+ border-top: 1px solid #eaeaea;
+ padding-top: 15px;
+ padding-bottom: 15px;
+}
+
 .footer {
-  background-color: #000;
+  background-color: #333;
   margin-top: 30px;
   padding-top: 15px;
   border-top: 5px solid #FFB90F;
