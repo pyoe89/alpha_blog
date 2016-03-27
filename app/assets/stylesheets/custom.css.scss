@@ -5,6 +5,12 @@ $border-radius-base: 0;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.navbar {
+  margin: 0px;
+  padding: 5px 10px 0px 10px;
+  border-bottom: 4px solid #FFF;
+}
+
 #logo{
   float: left;
   font-size: 1.7em;
@@ -22,18 +28,25 @@ $border-radius-base: 0;
 .center {
   text-align: center;
 }
-
-.jumbotron {
-  background-image: asset-url('new_cover_page.jpg');
+.container-fluid {
+  margin: 0px;
+  padding: 0px;
+  
+}
+.header {
+  background-image: asset-url('Glitch.png');
   background-size: cover;
+  padding: 0px;
+  margin: 0px;
+  height: 650px;
 }
 
-.jumbotron h1 {
+.header h1 {
   color: #FFF;
   text-align: center;
   margin-bottom: 30px;
   margin-top: 150px;
-  letter-spacing: 10px;
+  letter-spacing: 15px;
   font-weight:bold;
 }
 
@@ -44,6 +57,7 @@ $border-radius-base: 0;
   padding: 10px 20px 10px 20px;
   margin-top: 90px;
 }
+
 .article-actions {
   border-top: 1px solid #eaeaea;
   padding-top: 5px;
@@ -69,8 +83,8 @@ $border-radius-base: 0;
 .footer {
   background-color: #333;
   margin-top: 30px;
-  padding-top: 15px;
-  border-top: 5px solid #FFB90F;
+  padding: 15px 10px 0px 10px;;
+  border-top: 5px solid #FFF;
   color: #FFF;
 }
 
